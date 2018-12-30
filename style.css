@@ -1,0 +1,66 @@
+body,
+html {
+  width: 100%;
+  height: 100%;
+/*  background-image: url(homebrew.jpg);
+  background-repeat:no-repeat;
+  background-size: auto;*/
+
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+hr {
+  max-width: 65px;
+  border-width: 3px;
+  border-color: #F05F44; 
+}
+
+.faded {
+  color: rgba(255, 255, 255, 0.8); 
+}
+
+header.startup {
+  background-position: center;
+  background-image: url("homebrew2.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100%;
+}
+
+header.startup hr {
+  margin-top: 150px;
+  margin-bottom: 30px; 
+}
+
+
+header.startup h1 {
+  font-size: 12vw;
+  font-family: 'Uncial Antiqua', cursive;
+}
+
+.btn {
+  width: 200px;
+  font-weight: 700;
+  text-transform: uppercase;
+  border-radius: 300px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.btn-xl {
+  padding: 1rem 2rem; 
+}
+
+.btn-warning {
+  background-color: #FFC632;
+  border-color: #FFC632; }
+
+.btn-warning:hover {
+  background-color: transparent;
+  border-color: #FFC632;
+  border-width: 5px;
+  width: 250px;
+  cursor: pointer;
+}
